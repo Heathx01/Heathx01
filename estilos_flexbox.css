@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 80%;
+    height: 500px;
+    background: #ff5c29;
+    margin: 50px auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center  ;
+    align-content: center;
+}
+.hijo{
+    background: #00b285;
+    width: 200px;
+    height: 100px;
+    color: #fff;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background: rgb(1, 1, 67);
+
+}
